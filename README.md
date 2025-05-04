@@ -2,4 +2,4 @@
 
 https://codepen.io/vladsoltys/pen/QwwaVJe (ChemTableTask)
 
-https://codepen.io/vladsoltys/pen/ByyxjjW
+https://codepen.io/vladsoltys/pen/ByyxjjW (BatteryTask)
