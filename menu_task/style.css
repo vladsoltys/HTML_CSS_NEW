@@ -1,0 +1,44 @@
+* {
+  padding: 0; margin: 0;
+  box-sizing: border-box;  
+}
+.menu {
+  font-size: 0;
+  list-style-type: none;
+  background-color: #224;
+  color: white;
+}
+
+/*только элементы li, являющиеся строго дочерними .menu*/
+.menu>li {  
+  
+  display: inline-block;
+  width: calc(100% / 5);
+  font-size: 18px;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+}
+/*подблок*/
+li>ul {    
+  list-style-type: none;
+  color: #494;
+  display: none;
+/*   opacity: 0; */
+}
+li:hover ul {
+  display: block;
+/*   opacity: 1; */
+  position: absolute;
+  background-color: #335;
+  width: 100%;
+  left: 0;
+  top: 100%;
+}
+li li {
+  padding: 20px;
+  color: #fff;
+}
+img {
+  width: 100%;
+}
