@@ -1,0 +1,77 @@
+:root {
+  background-color: #666;
+  width: fit-content;
+  margin: auto;
+}
+
+ul {
+  font-family: "Verdana";
+  color: #fff;
+  padding: 10px 0px;
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+}
+
+li {
+  width: 15%;
+  min-width: fit-content;
+  padding: 0px 30px 0px 30px;
+}
+
+li:nth-child(1) {
+  font-weight: bold;
+   color: #fff;
+}
+
+
+.container {
+/*   width: fit-content;
+  margin: auto; */
+  display: grid;
+  grid-template-columns: 200px 200px 250px;
+  grid-template-rows: 250px 200px 150px;
+  grid-auto-rows: 300px;
+  gap: 20px 40px;
+}
+
+
+.block1 {
+  background-image: url(https://images.unsplash.com/photo-1690139217228-df437e22cf21?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIzMDM5OTF8&ixlib=rb-4.0.3&q=85);
+  background-size: cover;
+  
+}
+.block2 {
+ background-image: url(https://images.unsplash.com/photo-1691751579305-cfaee3b8ec2b?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIzMDU2MDN8&ixlib=rb-4.0.3&q=85);
+  background-size: cover;
+}
+.block3 {
+  background-image: url(https://images.unsplash.com/photo-1689351779949-35df2fe11464?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIzMDU2MDN8&ixlib=rb-4.0.3&q=85);
+  background-position: 30% 60%;
+  background-size: cover;
+  grid-row: 1/3;
+  grid-column: 3/4;
+
+}
+.block4 {
+  background-image: url(https://images.unsplash.com/photo-1691202727463-012bcc83c9fc?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIzMDc2MzJ8&ixlib=rb-4.0.3&q=85);
+  background-position: center center;
+  background-size: cover;
+  grid-column: 1/3;
+  
+}
+.block5 {
+  background-image: url(https://images.unsplash.com/photo-1689101298178-4db5b7a8c49f?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIzMDc1NzF8&ixlib=rb-4.0.3&q=85);
+  background-size: cover;
+}
+.block6 {
+  background-image: url(https://images.unsplash.com/photo-1692029755346-38b60103af4d?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIzMDU4Mjh8&ixlib=rb-4.0.3&q=85);
+  background-position: center bottom;  
+  background-size: cover;
+  grid-column: 2/4;
+}
+.block7 {
+  background-image: url(https://images.unsplash.com/photo-1691427916237-fd344dbbb398?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIzMDU4Mjh8&ixlib=rb-4.0.3&q=85);
+  background-size: cover;
+  grid-column: 1/4;
+}
