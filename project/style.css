@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+}
+
+.navigation-board {
+    width: 100%;
+    height: 80px;
+    background-color: #29A28C1C;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header {
+    height: 758px;
+    background-image: url(https://ucarecdn.com/761233c4-7224-418d-b151-ea7bc1196250/);
+    background-size: cover;
+}
+
+nav {
+    width: 890px;
+    margin-right: 70px;
+    /* border: 1px solid; */
+}
+
+ul {
+    list-style-type: none;
+    font-family: "Open sans";
+    font-size: 18px;
+    color: #FFFFFF;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-between;
+}
+
+/* li:nth-child(2) {
+    display: flex;
+    align-items: center;
+} */
+
+svg {
+    margin-left: 7px;
+}
+
+.icon-left {
+    display: flex;
+    align-items: center;
+    margin-left: 77px;
+    min-width: fit-content;
+}
+
+.icon-logo {
+    /* background-image: url(https://ucarecdn.com/b4157a46-7c83-475d-afd0-e2d490c29bbd/); */
+    background-color: #fff;
+}
+
+.icon-title {
+    font-family: "Open sans";
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-left: 11px;
+}
