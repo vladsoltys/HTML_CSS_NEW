@@ -17,7 +17,6 @@ header {
     background-image: url(https://ucarecdn.com/761233c4-7224-418d-b151-ea7bc1196250/);
     background-size: cover;
     min-width: fit-content;
-    /* filter: blur(2px); */
 }
 
 nav {
@@ -35,11 +34,6 @@ ul {
     display: flex;
     justify-content: space-between;
 }
-
-/* li:nth-child(2) {
-    display: flex;
-    align-items: center;
-} */
 
 svg {
     margin-left: 7px;
@@ -65,11 +59,6 @@ svg {
 }
 
 .central-title {
-    width: 100%;
-    height: 90%;
-}
-
-.central-title>div {
     width: 870px;
     font-family: "Open sans";
     letter-spacing: 0.08em;
@@ -82,4 +71,20 @@ svg {
     margin-top: 211px;
 }
 
+.bottom-style {
+    margin: auto;
+    font-family: "Open sans";
+    font-size: 16px;
+    color: #FFFFFF;
+    width: 278px;
+    text-align: center;
+    border: 1px solid #FFFFFF;
+    border-radius: 43px;
+    padding: 12px;
+    margin-top: 57px;
+}
 
+.arrow {
+    margin-left: 48%;
+    margin-top: 5%;
+}
