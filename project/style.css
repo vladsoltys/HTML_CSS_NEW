@@ -9,7 +9,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    min-width: fit-content;
+    /* min-width: fit-content; */
 }
 
 header {
@@ -88,3 +88,34 @@ svg {
     margin-left: 48%;
     margin-top: 5%;
 }
+
+.pos-table {
+    display: flex;
+    text-align: center;
+    width: 95%;
+    margin: auto;
+    margin-top: 150px;
+    /* border: 1px solid; */
+}
+
+.pos-table-cont {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid; */
+    padding: 0 92px 0 92px;
+    font-family: "Open sans";
+}
+
+.pos-table-cont:nth-child(-n+3) {
+    border-right: 3px solid #29A28C;
+}
+
+.pos-table-cont>div:nth-child(1) {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+
+
+
+
