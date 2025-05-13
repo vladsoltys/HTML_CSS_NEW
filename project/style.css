@@ -1,4 +1,6 @@
 body {
+    width: 1520px;
+    min-width: 1200px;
     margin: 0;
 }
 
@@ -14,7 +16,8 @@ body {
 
 header {
     height: 758px;
-    background-image: url(https://ucarecdn.com/761233c4-7224-418d-b151-ea7bc1196250/);
+    /* background-image: url(https://ucarecdn.com/761233c4-7224-418d-b151-ea7bc1196250/); */
+    background-image: url(img/cooper.jpg);
     background-size: cover;
     min-width: fit-content;
 }
@@ -47,8 +50,14 @@ svg {
 }
 
 .icon-logo {
-    /* background-image: url(https://ucarecdn.com/b4157a46-7c83-475d-afd0-e2d490c29bbd/); */
+    background-image: url(https://ucarecdn.com/b4157a46-7c83-475d-afd0-e2d490c29bbd/);
     background-color: #fff;
+    /* background-size: cover; */
+    width: 46px;
+    height: 46px;
+    background-position: left 35% top 45%;
+    border-radius: 50%;
+    
 }
 
 .icon-title {
