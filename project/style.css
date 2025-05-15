@@ -193,6 +193,7 @@ svg {
     /* border: 2px solid; */
     margin: auto;
     margin-top: 239px;
+    font-family: "Open sans";
 }
 
 .main-services>div:first-child {
@@ -215,12 +216,47 @@ svg {
 }
 
 .main-services-content>div {
-    border: 1px solid;
-    width: 27%;
+    width: 25%;
     height: 100%;
     border-radius: 27px;
+    padding: 0 0 0 42px;
+    box-shadow: 0 3px 11px 0 rgba(152, 152, 152, 0.56);
 }
 
-.content-card-1 {
+.content-card {
+    display: flex;
+    flex-direction: column;
+    position: relative;
 
 }
+
+.content-card>p:nth-child(1) {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 95px;
+    text-transform: uppercase;
+
+}
+
+.content-card>p:nth-child(2) {
+    font-size: 14px;
+    font-weight: 400;
+    position: absolute;
+    margin-top: 217px;
+    width: 74%;
+
+}
+
+.content-card>div {
+    font-size: 16px;
+    color: #29a28c;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 36px;
+    position: absolute;
+    margin-top: 451px;
+    width: 74%;
+}
+
