@@ -130,8 +130,11 @@ svg {
     /* border: 2px solid; */
     margin: auto;
     margin-top: 180px;
-    /* display: flex; */
     position: relative;
+}
+
+.consultation-table>img {
+    position: absolute;
 }
 
 .right-side {
@@ -267,7 +270,25 @@ svg {
 .our-project {
     width: 100%;
     height: 76%;
-    border: 2px solid;
+    /* border: 2px solid; */
+    position: relative;
+}
+
+.our-project::before {
+    content: url('data:image/svg+xml,<svg width="22" height="34" viewBox="0 0 22 34" fill="none" xmlns="http://www.w3.org/2000/svg"><g filter="url(%23filter0_ddd_55_289)"><path d="M17 25L5 13L17 0.999999" stroke="black" /></g><defs><filter id="filter0_ddd_55_289" x="0.292847" y="0.646484" width="21.0607" height="32.707" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feFlood flood-opacity="0" result="BackgroundImageFix" /><feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" /><feOffset dy="4" /><feGaussianBlur stdDeviation="2" /><feComposite in2="hardAlpha" operator="out" /><feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" /><feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_55_289" /><feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" /><feOffset dy="4" /><feGaussianBlur stdDeviation="2" /><feComposite in2="hardAlpha" operator="out" /><feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" /><feBlend mode="normal" in2="effect1_dropShadow_55_289" result="effect2_dropShadow_55_289" /><feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" /><feOffset dy="4" /><feGaussianBlur stdDeviation="2" /><feComposite in2="hardAlpha" operator="out" /><feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" /><feBlend mode="normal" in2="effect2_dropShadow_55_289" result="effect3_dropShadow_55_289" /><feBlend mode="normal" in="SourceGraphic" in2="effect3_dropShadow_55_289" result="shape" /></filter></defs></svg>');
+    position: absolute;
+    transform: translate(-67px, 225px);
+}
+
+.our-project::after {
+    content: url('data:image/svg+xml,<svg width="22" height="34" viewBox="0 0 22 34" fill="none" xmlns="http://www.w3.org/2000/svg"> --><g filter="url(%23filter0_d_90_84)"><path d="M5 1L17 13L5 25" stroke="black" /></g><defs><filter id="filter0_d_90_84" x="0.646484" y="0.646484" width="21.0605" height="32.707" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feFlood flood-opacity="0" result="BackgroundImageFix" /><feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" /><feOffset dy="4" /><feGaussianBlur stdDeviation="2" /><feComposite in2="hardAlpha" operator="out" /><feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" /><feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_90_84" /><feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_90_84" result="shape" /></filter></defs></svg>');
+    position: absolute;
+    transform: translate(1280px, -372px);
+}
+
+.main-services>svg:first-child {
+    position: absolute;
+    transform: translate(30px, 3px);
 }
 
 .our-project-content {
@@ -276,14 +297,19 @@ svg {
     position: relative;
 }
 
+.our-project-content>img {
+    position: absolute;
+}
+
 .our-project-right-side {
     font-family: "Open sans";
-    width: 56%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     position: absolute;
-    margin-left: 44%;
+    margin-left: 47%;
     padding-left: 31px;
+    /* border: 1px solid; */
 }
 
 .our-project-right-side>div:first-child {
@@ -299,7 +325,7 @@ svg {
     line-height: 151%;
     letter-spacing: 0.01em;
     margin-top: 80px;
-    width: 75%;
+    width: 82%;
 }
 
 .our-project-right-side>div:nth-child(3) {
@@ -325,6 +351,8 @@ svg {
     border-radius: 43px;
     margin-bottom: 0;
     margin-top: 38px;
+    border-radius: 43px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
 
