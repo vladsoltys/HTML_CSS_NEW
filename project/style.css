@@ -286,11 +286,6 @@ svg {
     transform: translate(1280px, -372px);
 }
 
-.main-services>svg:first-child {
-    position: absolute;
-    transform: translate(30px, 3px);
-}
-
 .our-project-content {
     width: 100%;
     height: 86%;
@@ -354,6 +349,150 @@ svg {
     border-radius: 43px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
+
+.workprocess-stand {
+    width: 1244px;
+    height: 634px;
+    /* border: 2px solid; */
+    margin: auto;
+    margin-top: 239px;
+    font-family: "Open sans";
+    position: relative;
+}
+
+.workprocess-stand>div:first-child {
+    text-align: center;
+    font-family: "Open sans";
+    font-weight: 700;
+    font-size: 40px;
+    /* border: 1px solid; */
+    padding-bottom: 130px;
+}
+
+.our-workprocess {
+    width: 100%;
+    height: 76%;
+    /* border: 2px solid; */
+    position: absolute;
+    left: 2%;
+}
+
+.our-workprocess-content {
+    width: 100%;
+    height: 86%;
+    position: relative;
+}
+
+.our-workprocess-content>img {
+    position: absolute;
+}
+
+.our-workprocess-right-side {
+    font-family: "Open sans";
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-left: 57%;
+    padding-left: 31px;
+    /* border: 1px solid; */
+}
+
+.our-workprocess-right-side>div:first-child {
+    font-weight: 400;
+    font-size: 36px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+.our-workprocess-right-side>div:nth-child(2) {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 151%;
+    letter-spacing: 0.01em;
+    margin-top: 80px;
+    width: 89%;
+}
+
+.our-workprocess-right-side>div:nth-child(3) {
+    font-size: 20px;
+    color: #000;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+    width: 50%;
+    text-transform: uppercase;
+}
+
+.left-nav {
+    position: absolute;
+    font-size: 18px;
+    font-family: "Open sans";
+    left: -9%;
+    top: 0%;
+    height: 108%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.left-nav>div {
+    width: 93px;
+    height: 56px;
+    border: 1px solid;
+    text-align: center;
+    line-height: 56px;
+}
+
+.instrument-and-technologies-stand {
+    width: 1400px;
+    height: 550px;
+    margin: auto;
+    margin-top: 239px;
+    font-family: "Open sans";
+    position: relative;
+}
+
+.instrument-and-technologies-stand>div:first-child {
+    text-align: center;
+    font-family: "Open sans";
+    font-weight: 700;
+    font-size: 40px;
+    /* border: 1px solid; */
+    padding-bottom: 130px;
+}
+
+.instrument-and-technologies-stand>div:nth-child(2) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.instrument-and-technologies-stand>div:nth-child(3) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 63px;
+}
+
+.instrument-and-technologies-stand>div:nth-child(3)>div {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin-top: 70px;
+    /* border: 1px solid; */
+    position: relative;
+}
+
+.instrument-and-technologies-stand>div:nth-child(3)>div>img:first-child {
+    position: absolute;
+    top: -25%
+}
+
 
 
 
