@@ -546,4 +546,78 @@ svg {
     width: 419px;
 }
 
+.director>div:nth-child(5) {
+    margin-top: 53px;
+}
 
+.director>div:nth-child(6) {
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #6c6c6c;
+}
+
+.questions {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.questions>div:first-child{
+    font-weight: 400;
+    font-size: 36px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    margin-top: 75px;
+}
+
+input.name {
+    width: 648px;
+    height: 33px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #FFFFFF;
+    margin-top: 33px;
+    position: relative;
+}
+
+input.name::placeholder{
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.46);
+    position: absolute;
+    left: 20px;
+    bottom:8px
+}
+
+input.email-phone {
+    width: 289px;
+    height: 33px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #FFFFFF;
+    margin-top: 33px;
+    position: relative;
+}
+
+input.email-phone::placeholder {
+     font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.46);
+    position: absolute;
+    left: 20px;
+    bottom:8px
+}
+
+.questions>div:nth-child(3) {
+    width: 648px;
+    display: flex;
+    justify-content: space-between;
+}
