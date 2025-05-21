@@ -621,3 +621,23 @@ input.email-phone::placeholder {
     display: flex;
     justify-content: space-between;
 }
+
+.message {
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    border-radius: 13px;
+    width: 648px;
+    height: 158px;
+    margin-top: 62px;
+    position: relative;
+}
+
+.message::placeholder {
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.46);
+    position: absolute;
+    left: 20px;
+    top: 22px;
+}
