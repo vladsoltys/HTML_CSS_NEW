@@ -706,7 +706,7 @@ input.email-phone::placeholder {
 }
 
 footer {
-    width: 90%;
+    width: 95%;
     margin: auto;
     font-family: "Open sans";
 }
@@ -716,7 +716,7 @@ footer {
     /* width: 90%;
     margin: auto; */
     border-bottom: 1px solid #bdbdbd;
-    padding: 238px 47px 114px 0; 
+    padding: 238px 37px 114px 0; 
     display: flex;
     justify-content: space-between;
 }
@@ -725,6 +725,13 @@ footer {
     display: flex;
     flex-direction: column;
     padding-top: 20px;
+}
+
+.footer-icon-left {
+    display: flex;
+    align-items: center;
+    margin-left: 47px;
+    min-width: fit-content;
 }
 
 .icon-title-footer {
@@ -742,8 +749,12 @@ footer {
     letter-spacing: 0.07em;
     text-transform: uppercase;
     color: #000;
-    margin-left: 125px;
+    margin-left: 95px;
     margin-top: 10px;
+}
+
+.contacts {
+    margin-left: 65px;
 }
 
 .numbers {
@@ -752,6 +763,7 @@ footer {
     line-height: 171%;
     letter-spacing: 0.07em;
     text-transform: uppercase;
+    text-align: right;
     color: #000;
     position: relative;
 }
@@ -759,5 +771,83 @@ footer {
 .numbers::before {
     content: url(img/phone.jpg);
     position: absolute;
-    left: -20%
+    left: -20%;
+    top: 20%
+}
+
+.email {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 171%;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    position: relative;    
+}
+
+.email::before {
+    content: url(img/letter.jpg);
+    position: absolute;
+    left: -19%;
+    top: 5%;
+}
+
+.socialnetworks {
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 171%;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.socialnetworks>div:first-child {
+    position: relative;
+}
+
+.socialnetworks>div:first-child::before {
+    content: url(img/whatsapp.jpg);
+    position: absolute;
+    left: -52%;
+}
+
+.socialnetworks>div:nth-child(2) {
+    position: relative;
+}
+
+.socialnetworks>div:nth-child(2)::before {
+    content: url(img/telegram.jpg);
+    position: absolute;
+    left: -52%;
+    top: 10%
+}
+
+.footer-nav {
+    width: 379px;
+    height: 136px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-nav>ul {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 185%;
+    letter-spacing: 0.07em;
+    color: #000;
+}
+
+.footer-bottom {
+    font-family: "Open sans";
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    letter-spacing: -0.01em;
+    color: #bdbdbd;
+    text-align: right;
+    padding: 36px 36px 54px 36px;
 }
