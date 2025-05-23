@@ -237,6 +237,12 @@ svg {
 
 }
 
+.content-card>svg {
+    position: absolute;
+    top: -8px;
+    right: -12px;
+}
+
 .content-card>p:nth-child(1) {
     font-size: 20px;
     font-weight: 400;
