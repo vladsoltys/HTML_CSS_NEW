@@ -705,12 +705,26 @@ input.email-phone::placeholder {
     right: 10%; 
 }
 
-footer>div:first-child {
-    /* height: 335px; */
+footer {
     width: 90%;
     margin: auto;
+    font-family: "Open sans";
+}
+
+.footer-main {
+    /* height: 335px; */
+    /* width: 90%;
+    margin: auto; */
     border-bottom: 1px solid #bdbdbd;
     padding: 238px 47px 114px 0; 
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
 }
 
 .icon-title-footer {
@@ -719,4 +733,31 @@ footer>div:first-child {
     font-size: 20px;
     color: #000;
     margin-left: 11px;
+}
+
+.footer-logo>div:nth-child(2) {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 171%;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: #000;
+    margin-left: 125px;
+    margin-top: 10px;
+}
+
+.numbers {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 171%;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: #000;
+    position: relative;
+}
+
+.numbers::before {
+    content: url(img/phone.jpg);
+    position: absolute;
+    left: -20%
 }
