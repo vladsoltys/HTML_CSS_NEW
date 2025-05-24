@@ -4,6 +4,8 @@ body {
     margin: 0;
 }
 
+/* ВЕРХНЕЕ ПОЛЕ НАВИГАЦИИ И БРЕДЛИ КУПЕР */
+
 .navigation-board {
     width: 100%;
     height: 10%;
@@ -98,6 +100,8 @@ svg {
     margin-top: 5%;
 }
 
+/* 98 % | 30 | 5+ | +20% */
+
 .pos-table {
     display: flex;
     text-align: center;
@@ -123,6 +127,8 @@ svg {
     font-size: 48px;
     font-weight: 600;
 }
+
+/* ГАРАНТИРУЕМ КАЧЕСТО И ВЫПОЛНЕНИЕ В СРОКИ / ЗАПРОСИТЬ КОНСУЛЬТАЦИЮ */
 
 .consultation-table {
     width: 90%;
@@ -193,6 +199,8 @@ svg {
     padding: 30px;
 }
 
+/* ОСНОВНЫЕ УСЛУГИ */
+
 .main-services {
     width: 1244px;
     height: 785px;
@@ -210,7 +218,6 @@ svg {
     /* border: 1px solid; */
     padding-bottom: 130px;
 }
-
 
 .main-services-content {
     width: 100%;
@@ -243,6 +250,42 @@ svg {
     right: -12px;
 }
 
+.content-card:first-child {
+    position: relative;
+}
+
+.content-card:first-child::after {
+    content: url(img/mobile.jpg);
+    position: absolute;
+    top: 3%;
+    left: 80%;
+
+}
+
+.content-card:nth-child(2) {
+    position: relative;
+}
+
+.content-card:nth-child(2)::after {
+    content: url(img/desktop.jpg);
+    position: absolute;
+    top: 3%;
+    left: 80%;
+    
+}
+
+.content-card:nth-child(3) {
+    position: relative;
+}
+
+.content-card:nth-child(3)::after {
+    content: url(img/web.jpg);
+    position: absolute;
+    top: 3%;
+    left: 80%;
+    
+}
+
 .content-card>p:nth-child(1) {
     font-size: 20px;
     font-weight: 400;
@@ -272,6 +315,8 @@ svg {
     margin-top: 451px;
     width: 74%;
 }
+
+/* НАШИ ПРОЕКТЫ */
 
 .our-project {
     width: 100%;
@@ -355,6 +400,8 @@ svg {
     border-radius: 43px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
+
+/* НАШ ПРОЦЕС РАБОТЫ */
 
 .workprocess-stand {
     width: 1244px;
@@ -453,6 +500,8 @@ svg {
     line-height: 56px;
 }
 
+/* ИНСТРУМЕНТЫ И ТЕХНОЛОГИИ */
+
 .instrument-and-technologies-stand {
     width: 1400px;
     height: 550px;
@@ -498,6 +547,8 @@ svg {
     position: absolute;
     top: -25%
 }
+
+/* / ЮРИЙ АРХИПОВ / ЕСТЬ ВОПРОСЫ? ЗАДАВАЙТЕ! / */
 
 .last-stand {
     width: 100%;
@@ -710,6 +761,8 @@ input.email-phone::placeholder {
     top:10%;
     right: 10%; 
 }
+
+/* ФУТЕР */
 
 footer {
     width: 95%;
