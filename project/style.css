@@ -46,6 +46,10 @@ nav>ul>li {
     padding: 25px;
 }
 
+nav>ul>li>svg:hover {
+    transform: rotate(180deg);
+}
+
 nav>ul>li:hover {
     cursor: pointer;
     /* border: 1px solid #FFFFFF; */
@@ -190,7 +194,7 @@ svg {
 /* ГАРАНТИРУЕМ КАЧЕСТО И ВЫПОЛНЕНИЕ В СРОКИ / ЗАПРОСИТЬ КОНСУЛЬТАЦИЮ */
 
 .consultation-table {
-    width: 90%;
+    width: 1450px;
     height: 584px;
     /* border: 2px solid; */
     margin: auto;
@@ -213,6 +217,8 @@ svg {
 }
 
 .right-side>div:first-child {
+    width: 520px;
+    margin: auto;
     font-size: 35px;
     font-weight: bold;
     padding: 30px 0 30px 0;
