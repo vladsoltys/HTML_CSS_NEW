@@ -341,3 +341,33 @@ body{
     text-align: center;
 }
 
+.site-images{
+    margin-bottom: 150px;
+    width: 100%;
+}
+
+.reviews {
+    margin-bottom: 150px;
+}
+.container {
+}
+.reviews__top {
+}
+.reviews__subtitle {
+}
+.reviews__title {
+}
+.reviews__items {
+}
+.review__item {
+}
+.reviews__img {
+}
+.blockquote {
+}
+.blockquote__text {
+}
+.blockquote__cite {
+}
+.blockquote__time {
+}
