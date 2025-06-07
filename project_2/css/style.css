@@ -235,6 +235,7 @@ body{
 .abput__inner {
     display: flex;
     justify-content: space-between;
+    gap: 20px;
 }
 .about__content {
     max-width: 560px;
@@ -511,6 +512,51 @@ body{
         font-size: 24px;
         transform: translateY(-100%);
         transition: transform .3s;
+    }
+
+    .header__news{
+        margin-top: 10px;
+        margin-bottom: 30px;
+        order: -1;
+    }
+
+    .header__content {
+        flex-direction: column;
+    }
+
+    .header__info-list {
+        max-width: 100%;
+    }
+
+    .header__info {
+        gap: 50px;
+    }
+
+    .text {
+        padding: 75px 0;
+        font-size: 40px;
+    }
+}
+
+@media(max-width: 480px) {
+    .header__buttons-activities,
+    .buttons-book{
+        font-size: 24px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .header__buttons {
+        flex-wrap: wrap;
+    }
+
+    .header__info-item {
+        font-size: 14px;
+        padding: 8px 12px;
+    }
+
+    .header__info-list {
+        gap: 10px;
     }
 }
 
