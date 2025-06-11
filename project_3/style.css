@@ -27,23 +27,52 @@ li{
 }
 
 .header {
-    width: 100%;
+    max-width: 1280px;
+    margin: auto;
 }
 .header__top {
     display: flex;
     justify-content: end;
     gap: 183px;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 15px 50px 13px 0;
+    margin-bottom: 21.5px;
 }
 .header__top-contacts {
     display: flex;
     flex-basis: 474px;
     justify-content: space-between;
+    font-weight: 500;
+    font-size: 12px;
 }
 .contacts-mail {
+    text-transform: lowercase;
+    color: #101d23;
+    padding: 0 10px;
+    display: flex;
+    gap: 13px;
 }
+
+.contacts-mail::before{
+    content: url(img/mail.svg);
+}
+
 .contacts-tel {
+    text-transform: lowercase;
+    color: #101d23;
+    padding: 0 10px;
+    display: flex;
+    gap: 8px;
 }
+
+.contacts-tel::before{
+    content: url(img/phone.svg);
+}
+
 .contacts-req {
+    text-transform: uppercase;
+    color: #e93d07;
+    padding: 0 10px;
 }
 .header__top-social {
     display: flex;
@@ -56,32 +85,61 @@ li{
 .social-youtube {
 }
 .header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-bottom: 51px; */
+    max-width: 1200px;
+    margin: auto;
+    margin-bottom: 51px;
+    /* padding: 0 59px; */
 }
 .header__nav-logo {
-}
-.logo-img {
-}
-.logo-name {
-}
-.logo-letters {
-}
-.logo-letter-orange {
-}
-.logo-letter-black {
-}
-.logo-description {
+
 }
 .header__nav-menu {
+    display: flex;
+    font-weight: 500;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #101d23;
+    
 }
 .menu-items {
+    display: flex;
+    gap: 50px;
+    padding: 6px 20px 6px 20px;
+    border-right: 1px solid #101d23;
 }
 .menu-item {
 }
 .menu-search {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
 }
 .search {
+
 }
 .header__content {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    /* grid-column: 1fr 1fr; */
+    gap: 16px;
+    width: fit-content;
+    margin: 0 auto;
 }
+
+.content-group {
+    grid-row: 1/3;
+    /* grid-column: 1/2; */
+
+}
+.content-percent {
+}
+.content-calc {
+}
+
+
 .header__bottom {
 }
