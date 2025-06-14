@@ -4,6 +4,7 @@ html{
 
 body{
     font-family: "Montserrat";
+    margin: 0;
 }
 
 *,
@@ -305,6 +306,7 @@ li{
 
 .scheme {
     margin-bottom: 93px;
+    height: 627px;
 }
 .scheme__container{
     display: flex;
@@ -383,4 +385,83 @@ li{
     position: absolute;
     left: 672px;
     top: 285px;
+}
+
+.about {
+    background-color: #f3f6f8;
+}
+.about__conainer {
+    display: flex;
+    gap: 101px;
+    padding: 70px 0;
+}
+.about__company {
+    max-width: 280px;
+
+}
+.about__company-title {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 135%;
+    letter-spacing: 0.02em;
+    color: #101d23;
+    margin-bottom: 30px;
+}
+.about__company-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 135%;
+    color: #101d23;
+}
+.about__blocks {
+    display: flex;
+    flex-wrap: wrap;
+}
+.block {
+    border: 1px solid #e5e5e5;
+    width: 198px;
+    height: 210px;
+    padding: 20px 19px 0 21px;
+}
+.block-text {
+    margin-top: 48px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 135%;
+    letter-spacing: 0.04em;
+    color: #101d23;
+}
+
+.about__bottom {
+    display: flex;
+}
+.left-side {
+    width: 50%;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 125%;
+    letter-spacing: 0.02em;
+    color: #fff;
+    background-color: #101d23;
+    padding: 34px 175px 32px 122px;
+}
+.right-side {
+    width: 50%;
+    background-color: #e93d07;
+    display: flex;
+    justify-content: space-around;
+}
+.ppt {
+    display: flex;
+    align-items: center;
+    gap: 23px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 125%;
+    letter-spacing: 0.03em;
+    color: #fff;
+}
+
+.ppt::before {
+    content: url(img/ppt.svg);
 }
