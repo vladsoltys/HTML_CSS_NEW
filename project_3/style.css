@@ -433,23 +433,56 @@ li{
 }
 
 .about__bottom {
-    display: flex;
+    position: relative;
+    height: auto;
+    padding: 40px 0;
+    margin-bottom: 91px;
 }
+
+.about__bottom-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    z-index: 0;
+}
+
+.back-left {
+    flex: 1;
+    background-color: #101d23;
+}
+
+.back-right {
+    flex: 1;
+    background-color: #e93d07;
+}
+
+.about__bottom-container {
+    max-width: 1202px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .left-side {
-    width: 50%;
+    max-width: 466px;
     font-weight: 500;
     font-size: 30px;
     line-height: 125%;
     letter-spacing: 0.02em;
     color: #fff;
-    background-color: #101d23;
-    padding: 34px 175px 32px 122px;
+    padding-right:20px;
 }
 .right-side {
-    width: 50%;
-    background-color: #e93d07;
     display: flex;
-    justify-content: space-around;
+    gap: 129px;
+    /* justify-content: space-between; */
+    padding: 0 55px;
 }
 .ppt {
     display: flex;
@@ -464,4 +497,61 @@ li{
 
 .ppt::before {
     content: url(img/ppt.svg);
+}
+
+.case__interpan {
+    margin-bottom: 131px;
+}
+
+.case__interpan-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.top-title h2{
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 135%;
+    letter-spacing: 0.02em;
+    color: #101d23;
+}
+
+.top-arrows {  
+    display: flex;
+    gap: 20px;
+}
+
+.case__interpan-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.case__content-left {
+    flex: 1;
+}
+
+.case__content-buttons {
+    font-weight: 600;
+    font-size: 9px;
+    line-height: 400%;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.content-list {
+    margin-top: 50px;
+}
+.list-items {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 215%;
+    letter-spacing: 0.03em;
+    color: #101d23;
+}
+.case__content-img {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    gap: 21px;
 }
