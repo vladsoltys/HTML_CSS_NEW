@@ -27,6 +27,7 @@ h2,
 h3, 
 h4, 
 h5,
+h6,
 p{
  margin: 0;   
 }
@@ -766,4 +767,124 @@ time{
     border-radius: 20px;
     padding: 11px 36px;
     
+}
+
+.footer {
+    background-color: #f3f6f8;
+    padding-top: 74px;
+    padding-bottom: 48px;
+}
+.footer__container {
+    display: flex;
+}
+.footer__left {
+    flex: 1;
+}
+.footer__left-text {
+    margin-top: 38px;
+    max-width: 304px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 135%;
+    color: #101d23;
+}
+.footer__right {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+}
+.footer__right-menu h4{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 135%;
+    letter-spacing: 0.03em;
+    color: #101d23;
+    margin-bottom: 36px;
+}
+.menu-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 120%;
+    letter-spacing: 0.04em;
+    color: #101d23;
+}
+
+.footer_right-contact-us {
+    margin-right: 96px;
+}
+
+.footer_right-contact-us h4{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 135%;
+    letter-spacing: 0.03em;
+    color: #101d23;
+    margin-bottom: 36px;
+}
+.mail-tel {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 120%;
+    letter-spacing: 0.04em;
+    color: #101d23;
+}
+.phone {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+.phone::before {
+    content: url(img/footer-tel.svg);
+}
+
+.mail {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+.mail::before {
+    content: url(img/footer-mail.svg);
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.social h6{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 120%;
+    letter-spacing: 0.04em;
+    color: #101d23;
+    margin-top: 47px;
+}
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.footer__bottom {
+    background-color: #f3f6f8;
+}
+
+.footer__bottom-container {
+    max-width: 1280px;
+    border-top: 1px solid #e5e5e5;
+    padding: 27px 0 34px 42px;
+    margin: 0 auto;
+}
+
+.footer__bottom p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 135%;
+    color: #8e8f9b;
 }
