@@ -1,0 +1,116 @@
+html{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto";
+    margin: 0;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+blockquote{
+    margin: 0;
+}
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5,
+h6,
+p{
+ margin: 0;   
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+
+.header {
+    height: 100vh;
+    background-image: url("img/headerback.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    margin-bottom: 62px;
+}
+.header__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    border-bottom: 2px solid #fff;
+}
+.header__top-logo {
+
+}
+.header__top-menu {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+}
+.menu-items {
+    display: flex;
+    gap: 35px;
+}
+.menu-item {
+}
+.header__top-contacts {
+    display: flex;
+    gap: 52px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    margin-top: 20px;
+}
+.contacts-adress {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+.contacts-adress::before {
+    content: url(img/mark.svg);
+}
+
+.contacts-tel {
+}
+.header__main {
+}
+.container {
+}
+.header__main-content {
+}
+.content-title {
+}
+.content-subtitle {
+}
+.content-buttons {
+}
+.button-request {
+}
+.button-grade {
+}
+.underbuttons-text {
+}
+.header__main-blocks {
+}
+.block {
+}
+.block-text {
+}
