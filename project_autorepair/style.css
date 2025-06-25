@@ -607,3 +607,35 @@ li{
 .map_img {
     width: 100%;
 }
+
+.footer__bottom {
+    background-color: #404040;
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    margin-top: -4px;
+}
+.footer__bottom-container {
+    width: 1120px;
+    margin: 0 auto;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-adress {
+    align-self: flex-start;
+}
+.contacts-adress {
+
+}
+.footer__bottom-details {
+}
+.contacts-tel {
+    display: flex;
+    flex-direction: column;
+}
