@@ -98,7 +98,7 @@ li{
     margin: 0 auto;
 }
 .main-conainer {
-    padding: 0 17px;
+    padding: 0 35px;
 }
 .header__main-content {
     margin-left: 79px;
@@ -638,4 +638,101 @@ li{
 .contacts-tel {
     display: flex;
     flex-direction: column;
+}
+
+@media(max-width: 1157px) {
+     header .contacts-adress {
+        display: none;
+     }
+
+     .more__title h1 {
+    font-size: 40px;
+     }
+
+     .more__title p {
+    font-size: 16px;
+    }
+
+    .more__item p {
+    font-size: 16px;
+    }
+
+    .benefits__title h1 {
+    font-size: 40px;
+    }
+
+    .benefits__title p {
+    font-size: 16px;
+    }
+
+    .ben-text {
+    font-size: 12px;
+    }
+
+    .ben-block {
+    height: 118px;
+    padding: 20px 5px 0 5px;
+    }
+
+    .ben-img {
+    margin-bottom: 13px;
+    }
+
+    .benefits {
+    background-size: contain;
+    }
+
+    .service__cards {
+    padding-left: 26px;
+    padding-right: 26px;
+    }
+
+    .card {
+    width: 210px;
+    height: 210px;
+    gap: 9px;
+    }
+
+    .card p {
+    font-size: 14px;
+    }
+
+    .service__title h1 {
+    font-size: 40px;
+    }
+
+    .service__title p {
+    font-size: 16px;
+    }
+
+    .img_svg {
+        width: 400px;
+        height: 120px;
+    }
+
+    .feedback__title h1 {
+    font-size: 40px;
+    }
+
+    .feedback__title p {
+    font-size: 16px;
+    }
+
+    .examples__title h1 {
+    font-size: 40px;
+    }
+
+    .examples__title p {
+    font-size: 16px;
+    width: 717px;
+    margin: 0 auto;
+    }
+
+    .exaples img {
+        width: 210px;
+    }
+
+    .form__title h1 {
+    font-size: 22px;
+    }
 }
