@@ -682,7 +682,7 @@ li{
 
     .ben-block {
     height: 118px;
-    padding: 20px 5px 0 5px;
+    padding: 15px 5px 0 5px;
     }
 
     .ben-img {
@@ -691,6 +691,10 @@ li{
 
     .benefits {
     background-size: contain;
+    }
+
+    .benefits img{
+        width: 25px;
     }
 
     .service__cards {
