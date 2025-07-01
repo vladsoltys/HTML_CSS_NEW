@@ -888,5 +888,26 @@ li{
         margin-bottom: 11px;
     }
 
+    .more_container {
+        padding: 0 53px;
+    }
+
+    .more__title h1 {
+        font-size: 30px;
+    }
+
+    .more__title p {
+        font-size: 14px;
+    }
+
+    .more__item h1 {
+        font-size: 70px;
+    }
+
+    .more__item p {
+        font-size: 14px;
+        top: 50px;
+        margin-left: 14px;
+    }
 
 }
