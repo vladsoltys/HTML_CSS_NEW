@@ -910,4 +910,33 @@ li{
         margin-left: 14px;
     }
 
+    .benefits {
+        padding: 23px 32px 92px 32px;
+    }
+
+    .benefits__title {
+        margin-bottom: 30px;
+    }
+
+    .benefits img {
+        width: 20px;
+    }
+
+    .benefits__title h1 {
+        font-size: 30px;
+    }
+
+    .benefits__title p {
+        font-size: 14px;
+    }
+
+    .ben-img {
+        margin-bottom: 10px;
+    }
+
+    .ben-block {
+        height: 123px;
+        padding: 15px 3px 0 3px;
+    }
+
 }
