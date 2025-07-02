@@ -565,12 +565,16 @@ li{
 }
 .form__input {
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
     max-width: 740px;
     margin: 0 auto;
  
 }
 .add-photo {
     flex: 1;
+    max-width: 370px;
+    min-width: 340px;
     display: flex;
     flex-direction: column;
     gap: 32px;
@@ -595,6 +599,8 @@ li{
 }
 .get-call {
     flex: 1;
+    max-width: 370px;
+    min-width: 340px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -683,10 +689,13 @@ li{
     transform: translateY(0%);
 } 
 
+@media(max-width: 1260px) {
+    header .contacts-adress {
+       display: none;
+    }
+}
+
 @media(max-width: 1157px) {
-     header .contacts-adress {
-        display: none;
-     }
 
      .more__title h1 {
     font-size: 40px;
@@ -1005,6 +1014,18 @@ li{
 
     .examples__photo {
         gap: 13px;
+    }
+
+    .form__title h1 {
+        font-size: 18px;
+    }
+
+    .get-call {
+    margin-bottom: 20px;
+    }
+
+    .footer__bottom-content {
+        width: 511px;
     }
 
 }
