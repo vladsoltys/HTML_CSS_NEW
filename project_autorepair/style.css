@@ -939,4 +939,72 @@ li{
         padding: 15px 3px 0 3px;
     }
 
+    .service__title h1 {
+        font-size: 30px;
+    }
+
+    .service__title p {
+        font-size: 14px;
+    }
+
+    .card p {
+        font-size: 12px;
+    }
+
+    .card {
+        width: 168px;
+        height: 168px;
+        gap: 9px;
+    }
+
+    .service__cards {
+        gap: 14px;
+    }
+
+    .feedback__title {
+        margin-bottom: 30px;
+    }
+
+    .feedback__title h1 {
+        font-size: 30px;
+    }
+
+    .feedback__title p {
+        font-size: 14px;
+    }
+
+    .img_svg {
+        width: 320px;
+        height: 96px;
+    }
+
+    .r_svg {
+        top: 40px;
+    }
+
+    .l_svg {
+        top: 40px;
+    }
+
+    .examples__title {
+        margin-bottom: 40px;
+    }
+
+    .examples__title h1 {
+        font-size: 30px;
+    }
+
+    .examples__title p {
+        font-size: 14px;
+        width: 627px;
+    }
+
+    .exaples img {
+        width: 168px;
+    }
+
+    .examples__photo {
+        gap: 13px;
+    }
+
 }
