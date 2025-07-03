@@ -689,6 +689,10 @@ li{
     transform: translateY(0%);
 } 
 
+.block-img img {
+    fill: black;
+}
+
 @media(max-width: 1260px) {
     header .contacts-adress {
        display: none;
@@ -881,7 +885,7 @@ li{
     }
 
     .block {
-        height: 96px;
+        height: 105px;
         padding: 13px;
     }
 
@@ -889,7 +893,7 @@ li{
         font-size: 14px;
     }
 
-    .header__main-blocks img {
+    .header__main-blocks svg {
         width: 24px;
     }
 
@@ -1028,4 +1032,8 @@ li{
         width: 511px;
     }
 
+}
+
+@media (max-width: 765px) {
+    
 }
